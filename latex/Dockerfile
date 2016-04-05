@@ -1,4 +1,4 @@
-FROM phusion/baseimage:latest
+FROM jedisct1/phusion-baseimage-latest:15.04
 MAINTAINER Guillermo Rodríguez Cano <gurc@csc.kth.se>
 
 # Use baseimage-docker's init system.
