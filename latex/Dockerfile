@@ -14,6 +14,7 @@ RUN apt-get update --fix-missing -qq -y \
     texlive-math-extra \
     texlive-latex-extra \
     texlive-fonts-extra \
+    texlive-bibtex-extra \
     curl \
     wget \  
     git \
