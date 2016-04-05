@@ -8,6 +8,7 @@ CMD ["/sbin/my_init"]
 RUN apt-get update --fix-missing -qq -y \
   && apt-get install -y \
     texlive-full \
+    biber \
     curl \
     wget \  
     git \
