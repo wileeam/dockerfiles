@@ -10,6 +10,7 @@ RUN apt-get update --fix-missing -qq -y \
     texlive-latex-base \
     texlive-xetex \ 
     latex-xcolor \ 
+    latexmk \ 
     texlive-math-extra \
     texlive-latex-extra \
     texlive-fonts-extra \
