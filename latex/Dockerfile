@@ -1,3 +1,9 @@
-FROM debian:jessie
+FROM phusion/baseimage:latest
+
+# Use baseimage-docker's init system.
+CMD ["/sbin/my_init"]
 
 RUN apt-get update && apt-get install -y git texlive-full
+
+# Clean up APT when done.
+#RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
